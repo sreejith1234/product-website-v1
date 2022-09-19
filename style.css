@@ -314,7 +314,7 @@
 }
 .showcase {
   width: 100%;
-  height: 1500px;
+  height: 1600px;
   position: relative;
   color: white;
   text-align: center;
@@ -327,7 +327,7 @@
 
 .showcase .overlay {
   width: 100%;
-  height: 1500px;
+  height: 1600px;
   background: linear-gradient(to bottom, rgb(226 230 239) 0%,rgb(0 0 0 / 90%) 100%);
   position: absolute;
   top: 0;
@@ -470,10 +470,14 @@
     padding-top: 130px;
     padding-bottom: 50px;
 }
+.side-menu{
+    height:calc(100vh - 65px);
+    overflow-y: auto;
+}
 .footer-logo-text{
     color: #fff;
     font-size: 20px;
-    width: 65%;
+    width: 75%;
     line-height: 35px;
 }
 .footer-logo{
