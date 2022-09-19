@@ -6,10 +6,10 @@
 
 .section-content{
   text-align: left;
-  padding: 100px 100px 0px 10px;
+  padding: 100px 95px 0px 35px;
 }
 #contact{
-  padding-top: 100px;
+  padding-top: 6%;
   width: 100%;
   width: 100vw;
   height: 100vh;
@@ -26,7 +26,7 @@
   padding-right: 106px;
 }
 .form-control {
-  height: 50px;
+  height: 40px;
 }
 .form-group{
   margin-top: 10px;
@@ -57,7 +57,7 @@ label{
   color: #fff;
 }
 textarea.form-control {
-    height: 70px;
+    height: 60px;
    /* margin-top: px;*/
 }
 .section-content h3{
