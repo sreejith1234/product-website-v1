@@ -82,11 +82,6 @@
     width: 100%;
     min-height: 150px;
     position: relative;
-    padding: 10px 0px;
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 12px;
-    display: flex;
-    justify-content: center;
 }
 .side-menu .products h3 {
     font-family: 'Roboto';
@@ -111,19 +106,19 @@
     -o-transform-origin: 0 0;
     transform-origin: 0 0;
 }
-.side-menu .products:nth-child(1) {
+.pm1 {
   background: #e2e0fc;
 }
-.side-menu .products:nth-child(2) {
+.pm2 {
   background: #f0dfc4;
 }
-.side-menu .products:nth-child(3) {
+.pm3 {
   background: #e4f0c4;
 }
-.side-menu .products:nth-child(4) {
+.pm4 {
   background: #c4f0f0;
 }
-.side-menu .products:nth-child(5) {
+.pm5 {
   background: #c4d8f0;
 }
 
@@ -313,11 +308,11 @@
     border-radius: 1rem;
 }
 .showcase {
-  width: 100%;
-  height: 1600px;
-  position: relative;
-  color: white;
-  text-align: center;
+    width: 100%;
+    height: auto;
+    position: relative;
+    color: white;
+    text-align: center;
 }
 
 .showcase img {
@@ -328,13 +323,18 @@
 }
 
 .showcase .overlay {
-  width: 100%;
-  height: 1600px;
-  background: linear-gradient(to bottom, rgb(226 230 239) 0%,rgb(0 0 0 / 90%) 100%);
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index:999
+    background-image: linear-gradient(rgb(224 228 238), rgb(0 0 0 / 84%)), url(img/mountain.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.m-0{
+    margin: 0px !important;
+}
+.p-0{
+    padding: 0px !important;
 }
 
 .showcase h2 {
@@ -517,7 +517,7 @@
 .logo{
     position: absolute;
     z-index: 1000;
-    left: 6.9%;
+    left: 5.3%;
     top: 5%;
     width: 75px;
 }
