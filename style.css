@@ -352,14 +352,16 @@
   z-index: 1;
   position: relative;
 }
-
 .showcase .overlay {
-    background-image: linear-gradient(rgb(224 228 238 / 90%), rgb(0 0 0 / 32%)), url(img/timeline-bg.jpg);
+    background: linear-gradient(0deg, rgb(0 0 0) 0%, rgb(0 0 0 / 0%) 100%), url(img/timeline-bg1.jpg);
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
     width: 100%;
     height: 100%;
+}
+.bg-merge{
+    width:100%;height:100px;
+    background: linear-gradient(0deg, rgb(248 249 250 / 0%) 0%, rgb(226 230 239) 100%);
 }
 .m-0{
     margin: 0px !important;
@@ -441,6 +443,12 @@
 }
 .split-1, .split-2{
     width: 50%;
+}
+#Layer_51 tspan {
+    font-weight: 500;
+}
+.graph text {
+    font-weight: 500;
 }
 
 /*  scrollbar */
