@@ -126,6 +126,7 @@
 /*Started*/
 .graph text, tspan {
     font-family: 'Roboto' !important;
+    font-weight: 600;
 }
 .cls-1 {
     fill: #c4d8f0;
