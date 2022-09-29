@@ -354,7 +354,7 @@
 }
 
 .showcase .overlay {
-    background-image: linear-gradient(rgb(224 228 238), rgb(0 0 0 / 84%)), url(img/mountain.png);
+    background-image: linear-gradient(rgb(224 228 238 / 90%), rgb(0 0 0 / 32%)), url(img/timeline-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
