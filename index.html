@@ -17,10 +17,16 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="slider1.css">
     <link rel="stylesheet" href="wave.css">
     <link rel="stylesheet" href="timeline.css">
-        <style> .slider-container{max-width: 100%; height: 100%; position: absolute; top: 0; left: 0; } .hide-container-bg::before{width: 0px !important; } .carousel-caption {position: absolute; left: 25%; top: 17%; width: 40%; } .carousel-caption-2 {position: absolute; left: 38%; top: 25%; width: 40%; } .slider-bg-b{fill: #054084; } .carousel-control-prev, .carousel-control-next{display: none !important; } .slider1-text-1{text-align: left;color: #ffffff;font-size:30px;font-weight: 600; } .slider1-text-2{text-align: left;color: #ffffff;font-size:14px;font-weight: 300; } .carousel-indicator {position: absolute; bottom: 17%; left: 7.8%; z-index: 2; display: block; justify-content: center; padding: 0; margin: 0; list-style: none; } .carousel-indicator button {display: block; list-style: none; text-indent: -99999px; border: 2px solid #c1c1c1; background: #fff !important; width: 15px !important; height: 15px !important; border-radius: 50% !important; margin: 10px 0px 10px 0px !important; transition: .25s ease; cursor: pointer; opacity: 1 !important; border: none !important; } .carousel-indicator .active{background: #56a1d0 !important; padding: 10px 0px !important; border-radius: 50px !important; border: solid 1px #fff !important; } .nut {padding: 11px 8px; background-color: #ffffff; border-radius: 50px; color: #000; border: none; text-align: center; width: 130px; margin: 16px 0px 0px 0px; transition: 1s !important ; font-size: 14px; } .nut:hover{background-color:#ffffff; } </style>
+        <style> .slider-container{max-width: 100%; height: 100%; position: absolute; top: 0; left: 0; } .hide-container-bg::before{width: 0px !important; } .carousel-caption {position: absolute; left: 25%; top: 17%; width: 40%; } .carousel-caption-2 {position: absolute; left: 38%; top: 25%; width: 40%; } .slider-bg-b{fill: #054084; } .carousel-control-prev, .carousel-control-next{display: none !important; } .slider1-text-1{text-align: left;color: #ffffff;font-size:37px;font-weight:bold; } .slider1-text-2{text-align: left;color: #ffffff;font-size:20px;font-weight: 300; } .carousel-indicator {position: absolute; bottom: 17%; left: 7.8%; z-index: 2; display: block; justify-content: center; padding: 0; margin: 0; list-style: none; } .carousel-indicator button {display: block; list-style: none; text-indent: -99999px; border: 2px solid #c1c1c1; background: #fff !important; width: 15px !important; height: 15px !important; border-radius: 50% !important; margin: 10px 0px 10px 0px !important; transition: .25s ease; cursor: pointer; opacity: 1 !important; border: none !important; } .carousel-indicator .active{background: #56a1d0 !important; padding: 10px 0px !important; border-radius: 50px !important; border: solid 1px #fff !important; } .nut {padding: 11px 8px; background-color: #ffffff; border-radius: 50px; color: #000; border: none; text-align: center; width: 130px; margin: 16px 0px 0px 0px; transition: 1s !important ; font-size: 14px; } .nut:hover{background-color:#ffffff; } </style>
+        <script type='text/javascript'>
+            $(document).ready(function(){
+                $( "#header" ).load( "header.html" );
+            });
+        </script>
 </head>
 
 <body class="overflow-hidden-x">
@@ -52,7 +58,7 @@
                                     </defs>
                                     <g id="Group_27632" data-name="Group 27632">
                                         <rect x="0" y="0" id="Rectangle_221" data-name="Rectangle 221" class="slider-bg-b" width="318" height="173" rx="18" />
-                                        <rect id="Rectangle_223" data-name="Rectangle 223" x="301" y="141" width="367" height="364" rx="18" fill="url(#grad1)" />
+                                        <rect id="Rectangle_223" data-name="Rectangle 223" x="301" y="141" width="367" height="264" rx="18" fill="url(#grad1)" />
                                         <path id="Path_748" data-name="Path 748" class="slider-bg-b" d="M280.11,158.67s33.74-2.18,34,17.58,29.75,0,29.75,0V140.92s-23.15,2.14-24.75-18.86S280.11,158.67,280.11,158.67Z" />
                                         <path id="Path_749" data-name="Path 749" class="slider-bg-b" d="M269.15,173s33.74-2.18,34,17.58,29.76,0,29.76,0V155.24s-23.15,2.14-24.76-18.86S269.15,173,269.15,173Z" />
                                     </g>
@@ -63,11 +69,9 @@
                                     </foreignObject>
                                     <foreignObject x="340" y="190" width="300" height="300">
                                         <div xmlns="http://www.w3.org/1999/xhtml" class="slider1-text-2">
-                                            <p>
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                            <p>Our data driven platform helps your hospital systems to connect, communicate and transact with individual patients.
                                             </p>
-                                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                                            <div class="nut">Learn More</div>
+                                            <div class="nut">Contact Us</div>
                                         </div>
                                     </foreignObject>
                                 </svg>
@@ -87,22 +91,20 @@
                                     </defs>
                                     <g id="Group_27632" data-name="Group 27632">
                                         <rect id="Rectangle_221" data-name="Rectangle 221" class="slider-bg-b" x="350" width="318" height="173" rx="18"/>
-                                        <rect id="Rectangle_223" data-name="Rectangle 223" fill="url(#grad2)" y="141" width="367" height="364" rx="18"/>
+                                        <rect id="Rectangle_223" data-name="Rectangle 223" fill="url(#grad2)" y="141" width="367" height="264" rx="18"/>
                                         <path id="Path_748" data-name="Path 748" class="slider-bg-b" d="M348.92,122.06c-1.6,21-24.75,18.86-24.75,18.86v35.33s29.52,19.76,29.75,0,34-17.58,34-17.58S350.52,101.05,348.92,122.06Z" transform="translate(0 0)"/>
                                         <path id="Path_749" data-name="Path 749" class="slider-bg-b" d="M359.88,136.38c-1.61,21-24.76,18.86-24.76,18.86v35.33s29.53,19.75,29.76,0,34-17.58,34-17.58S361.48,115.37,359.88,136.38Z" transform="translate(0 0)"/>
                                     </g>
-                                    <foreignObject x="390" y="40" width="300" height="173">
+                                    <foreignObject x="380" y="40" width="300" height="173">
                                         <div xmlns="http://www.w3.org/1999/xhtml" class="slider1-text-1">
-                                            WHAT MAKES <br>US UNIQUE
+                                           WHAT <br>WE OFFER
                                         </div>
                                     </foreignObject>
                                     <foreignObject x="40" y="190" width="300" height="300">
                                         <div xmlns="http://www.w3.org/1999/xhtml" class="slider1-text-2">
-                                            <p>
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                            <p>Solutions designed by clinicians that support flawless data entry, enable quick decision making and are highly efficient.
                                             </p>
-                                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                                            <div class="nut">Learn More</div>
+                                            <div class="nut">Contact Us</div>
                                         </div>
                                     </foreignObject>
                                 </svg>
@@ -123,22 +125,20 @@
                                     </defs>
                                     <g id="Group_27632" data-name="Group 27632">
                                         <rect x="0" y="0" id="Rectangle_221" data-name="Rectangle 221" class="slider-bg-b" width="318" height="173" rx="18" />
-                                        <rect id="Rectangle_223" data-name="Rectangle 223" x="301" y="141" width="367" height="364" rx="18" fill="url(#grad3)" />
+                                        <rect id="Rectangle_223" data-name="Rectangle 223" x="301" y="141" width="367" height="289" rx="18" fill="url(#grad3)" />
                                         <path id="Path_748" data-name="Path 748" class="slider-bg-b" d="M280.11,158.67s33.74-2.18,34,17.58,29.75,0,29.75,0V140.92s-23.15,2.14-24.75-18.86S280.11,158.67,280.11,158.67Z" />
                                         <path id="Path_749" data-name="Path 749" class="slider-bg-b" d="M269.15,173s33.74-2.18,34,17.58,29.76,0,29.76,0V155.24s-23.15,2.14-24.76-18.86S269.15,173,269.15,173Z" />
                                     </g>
                                     <foreignObject x="40" y="40" width="300" height="173">
                                         <div xmlns="http://www.w3.org/1999/xhtml" class="slider1-text-1">
-                                            WHAT MAKES <br>US UNIQUE
+                                            HOW DO WE <br> CONNECT
                                         </div>
                                     </foreignObject>
                                     <foreignObject x="340" y="190" width="300" height="300">
                                         <div xmlns="http://www.w3.org/1999/xhtml" class="slider1-text-2">
-                                            <p>
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                            <p>Applications that help patients to connect with clinicians in real-time, routinely monitor / manage personal health data and manage appointments.
                                             </p>
-                                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                                            <div class="nut">Learn More</div>
+                                            <div class="nut">Contact Us</div>
                                         </div>
                                     </foreignObject>
                                 </svg>
@@ -155,81 +155,11 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-            <div class="product-section" style="width:100%;display:flex;">
-                <div class="graph" style="width:50%;padding:100px 50px;">
+            <div class="product-section">
+                <div class="graph">
                     <svg id="Layer_51" data-name="Layer 5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 59.53 48.65">
                         <defs>
-                            <style>
-                            .cls-1 {
-                                fill: #c4d8f0;
-                            }
-
-                            .cls-16,
-                            .cls-2 {
-                                font-size: 1.5px;
-                                font-family: Roboto-Regular, Roboto;
-                            }
-
-                            .cls-3 {
-                                fill: #c4f0f0;
-                            }
-
-                            .cls-4 {
-                                letter-spacing: -0.01em;
-                            }
-
-                            .cls-5 {
-                                letter-spacing: 0em;
-                            }
-
-                            .cls-6 {
-                                letter-spacing: -0.02em;
-                            }
-
-                            .cls-7 {
-                                fill: #e4f0c4;
-                            }
-
-                            .cls-8 {
-                                letter-spacing: -0.01em;
-                            }
-
-                            .cls-9 {
-                                letter-spacing: -0.02em;
-                            }
-
-                            .cls-10 {
-                                letter-spacing: -0.04em;
-                            }
-
-                            .cls-11 {
-                                fill: #ead9bf;
-                            }
-
-                            .cls-12 {
-                                letter-spacing: 0.02em;
-                            }
-
-                            .cls-13 {
-                                fill: #e2e0fc;
-                            }
-
-                            .cls-14 {
-                                letter-spacing: 0em;
-                            }
-
-                            .cls-15 {
-                                fill: #101d42;
-                            }
-
-                            .cls-16 {
-                                fill: #fff;
-                            }
-
-                            .cls-17 {
-                                letter-spacing: -0.02em;
-                            }
-                            </style>
+                            <style> .cls-1 {fill: #c4d8f0; } .cls-16, .cls-2 {font-size: 1.5px; font-family: Roboto-Regular, Roboto; } .cls-3 {fill: #c4f0f0; } .cls-4 {letter-spacing: -0.01em; } .cls-5 {letter-spacing: 0em; } .cls-6 {letter-spacing: -0.02em; } .cls-7 {fill: #e4f0c4; } .cls-8 {letter-spacing: -0.01em; } .cls-9 {letter-spacing: -0.02em; } .cls-10 {letter-spacing: -0.04em; } .cls-11 {fill: #ead9bf; } .cls-12 {letter-spacing: 0.02em; } .cls-13 {fill: #e2e0fc; } .cls-14 {letter-spacing: 0em; } .cls-15 {fill: #101d42; } .cls-16 {fill: #fff; } .cls-17 {letter-spacing: -0.02em; } </style> 
                         </defs>
                         <path id="p5" class="cls-1" d="M55.8,61.83H41.27a9.34,9.34,0,0,0-6.62,3.35A9.83,9.83,0,0,0,32.41,71,10.14,10.14,0,0,0,34,76.49a12.68,12.68,0,0,0,2.56,2.64,6.27,6.27,0,0,0,2.27,1.21,15.54,15.54,0,0,0,2.13.42,8.13,8.13,0,0,1-2.85-1.2,7.73,7.73,0,0,1-1.77-2.12,5.9,5.9,0,0,1-.75-2.82,6.84,6.84,0,0,1,.67-3.05,6.4,6.4,0,0,1,3.09-3A6.16,6.16,0,0,1,41.14,68l7.18,0h1.52a6.3,6.3,0,0,0,5.45-3.7A6.79,6.79,0,0,0,55.8,61.83Z" transform="translate(-17.62 -33.13)" />
                         <text id="pt5" class="cls-2" transform="translate(29.29 32.47)">PREP</text>
@@ -268,10 +198,10 @@
                         </text>
                     </svg>
                 </div>
-                <div style="width:50%;padding: 100px 35px 20px 20px;">
+                <div class="product-details">
                     <div class="container-fluid">
                         <h4 class="heading-main">Our Products & technology</h4>
-                        <h6 class="heading-sub">Data Platform-as-a-service offers <br>a centralized data lake</h6>
+                        <h6 class="heading-sub">Data Platform-as-a-service offers a centralized data lake</h6>
                         <div class="row">
                             <div class="col-md-12 position-relative">
                                 <p class="text-sm text-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
@@ -522,13 +452,18 @@
                     <path style="transform:translate(0, 50px); opacity:0.9" fill="url(#sw-gradient-1)" d="M0,23L26.7,34.5C53.3,46,107,69,160,69C213.3,69,267,46,320,34.5C373.3,23,427,23,480,46C533.3,69,587,115,640,141.8C693.3,169,747,176,800,176.3C853.3,176,907,169,960,141.8C1013.3,115,1067,69,1120,42.2C1173.3,15,1227,8,1280,26.8C1333.3,46,1387,92,1440,99.7C1493.3,107,1547,77,1600,53.7C1653.3,31,1707,15,1760,34.5C1813.3,54,1867,107,1920,134.2C1973.3,161,2027,161,2080,138C2133.3,115,2187,69,2240,49.8C2293.3,31,2347,38,2400,46C2453.3,54,2507,61,2560,76.7C2613.3,92,2667,115,2720,134.2C2773.3,153,2827,169,2880,145.7C2933.3,123,2987,61,3040,34.5C3093.3,8,3147,15,3200,49.8C3253.3,84,3307,146,3360,164.8C3413.3,184,3467,161,3520,138C3573.3,115,3627,92,3680,69C3733.3,46,3787,23,3813,11.5L3840,0L3840,230L3813.3,230C3786.7,230,3733,230,3680,230C3626.7,230,3573,230,3520,230C3466.7,230,3413,230,3360,230C3306.7,230,3253,230,3200,230C3146.7,230,3093,230,3040,230C2986.7,230,2933,230,2880,230C2826.7,230,2773,230,2720,230C2666.7,230,2613,230,2560,230C2506.7,230,2453,230,2400,230C2346.7,230,2293,230,2240,230C2186.7,230,2133,230,2080,230C2026.7,230,1973,230,1920,230C1866.7,230,1813,230,1760,230C1706.7,230,1653,230,1600,230C1546.7,230,1493,230,1440,230C1386.7,230,1333,230,1280,230C1226.7,230,1173,230,1120,230C1066.7,230,1013,230,960,230C906.7,230,853,230,800,230C746.7,230,693,230,640,230C586.7,230,533,230,480,230C426.7,230,373,230,320,230C266.7,230,213,230,160,230C106.7,230,53,230,27,230L0,230Z"></path>
                 </svg>
             </div>
+        <section class="footer-main">
             <div class="footer">
                 <div class="container-fluid">
                     <div class=" row">
                         <div class="col-md-6 col-sm-6 col-6 mb-6">
                             <div class="footer-logo">
-                                <img class="footer-logo-img" src="logo.png">
-                                <h6 class="footer-logo-text">Advanced Health Information Management <br> and Social Analytics (AHIMSA)</h6>
+                                <div class="footer-logo-img">
+                                    <img src="logo.png">
+                                </div>
+                                <div class="footer-logo-text">
+                                    <h6>Advanced Health Information Management <br> and Social Analytics (AHIMSA)</h6>
+                                </div>
                             </div>
                             <div class="footer-contact">
                                 <p class="mt-3 mb-1 opacity-8">Jade 4, Roelofarendsveen, 2371 LB, Netherlands</p>
@@ -621,6 +556,7 @@
                     </ul>
                 </div>
             </div>
+        </section>
         </div>
         <div class="section-sidebar">
             <nav class="fancynavbar fancynavbar-expand-lg">

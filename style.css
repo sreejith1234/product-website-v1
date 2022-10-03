@@ -6,7 +6,7 @@
 *{
     margin: 0px;
     padding:  0px;
-    font-family: 'Roboto', 'Helvetica';
+    font-family: 'Roboto';
 }
 .overflow-hidden-x {
     overflow-x: hidden;
@@ -302,15 +302,15 @@
 }
 .heading-sub{
     font-weight: 700;
-    font-size: 20px;
+    font-size: 24px;
     color: #101d42;
     width: 75%;
     margin-bottom: 25px;
 }
 .heading-main{
-    font-weight: 500;
-    font-size: 15px;
-    color: #7993cb;
+    font-size: 12px;
+    color: #7993CB;
+    font-family: 'Roboto','Bold';
 }
 .text-count{
     color: #0a2e93;
@@ -353,7 +353,7 @@
   position: relative;
 }
 .showcase .overlay {
-    background: linear-gradient(0deg, rgb(0 0 0) 0%, rgb(0 0 0 / 0%) 100%), url(img/timeline-bg1.jpg);
+    background: linear-gradient(0deg, rgb(0 0 0) 0%, rgb(0 0 0 / 0%) 100%), url(img/timeline-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -516,10 +516,13 @@
     overflow-y: auto;
 }
 .footer-logo-text{
+    width: 100%;
+}
+.footer-logo-text h6{
     color: #fff;
     font-size: 20px;
-    width: 75%;
     line-height: 35px;
+    margin-bottom: 0rem;
 }
 .footer-logo{
     padding-left: 7%;
@@ -527,8 +530,11 @@
     align-items: flex-end;
 }
 .footer-logo-img{
-    padding-right: 25px;
+    padding-right: 15px;
     width: 15%;
+}
+.footer-logo-img img{
+    width: 100%;
 }
 .footer-contact{
     padding-left: 7%;
@@ -718,6 +724,21 @@
     position: absolute;
     margin-top: 22%;
     z-index: 1000;
+}
+.product-section{
+    width:100%;
+    display:flex;
+}
+.graph{
+    width:50%;
+    padding:100px 50px;
+}
+.product-details{
+    width:50%;
+    padding: 100px 35px 20px 20px;
+}
+.footer-logo{
+
 }
 
 
