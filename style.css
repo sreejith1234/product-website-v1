@@ -1,4 +1,8 @@
 @font-face {
+  font-family: Helvetica;
+  src: url(./font/Helvetica.ttf);
+}
+@font-face {
   font-family: Helvetica-Regular;
   src: url(./font/Helvetica-Regular.ttf);
 }
@@ -15,6 +19,7 @@
   src: url(./font/Roboto-Bold.ttf);
 }
 *{
+    font-family: Helvetica;
     margin: 0px;
     padding:  0px;
 }
