@@ -1,12 +1,22 @@
 @font-face {
-  font-family: Helvetica;
-  src: url(./font/Helvetica.ttf);
+  font-family: Helvetica-Regular;
+  src: url(./font/Helvetica-Regular.ttf);
 }
-
+@font-face {
+  font-family: Helvetica-Bold;
+  src: url(./font/Helvetica-Bold.ttf);
+}
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(./font/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(./font/Roboto-Bold.ttf);
+}
 *{
     margin: 0px;
     padding:  0px;
-    font-family: 'Roboto';
 }
 .overflow-hidden-x {
     overflow-x: hidden;
@@ -31,22 +41,22 @@
     opacity: 0.7;
 }
 .contact-head a{
-    font-family: 'Helvetica','Bold';
+    font-family: 'Helvetica-Bold';
     font-weight: 600;
     text-transform: uppercase;
     font-size: 24px;
 }
 .contact-text p{
-    font-family: 'Helvetica','Regular';
+    font-family: 'Helvetica-Regular';
     font-size: 18px;
     opacity: 0.7;
 }
 .contact-text1 h1{
-    font-family: 'Helvetica','Bold';
+    font-family: 'Helvetica-Bold';
     font-size: 38px;
 }
 .contact-text1 h3{
-    font-family: 'Helvetica','Regular';
+    font-family: 'Helvetica-Regular';
     font-size: 23px;
 }
 @media (min-width: 992px) and (min-width: 992px){
@@ -115,7 +125,7 @@
     position: relative;
 }
 .side-menu .products h3 {
-    font-family: Helvetica, Bold;
+    font-family: 'Helvetica-Regular';
     font-size: 10px;
     white-space: nowrap;
     color: #101d42;
@@ -156,7 +166,7 @@
 
 /*Started*/
 .graph text, tspan {
-    font-family: 'Roboto' !important;
+    font-family: 'Roboto-Bold' !important;
 }
 .cls-1 {
     fill: #c4d8f0;
@@ -165,7 +175,7 @@
 .cls-2,
 .cls-27 {
     font-size: 2px;
-    font-family: 'Roboto';
+    font-family: 'Roboto-Bold';
 }
 
 .cls-3 {
@@ -306,17 +316,38 @@
     color: #101d42;
     width: 75%;
     margin-bottom: 25px;
+    font-family: 'Roboto-Bold';
+}
+.about-content tspan{
+    font-family: 'Roboto-Regular' !important;
+}
+.about-main1 tspan{
+    font-family: 'Roboto-Bold' !important;
+    font-size: 12px;
+}
+.timeline-count{
+    font-family: 'Roboto-Bold' !important;
+    font-size: 40px;
+}
+.timeline-text{
+    font-family: 'Roboto-Regular' !important;
+    font-size: 23px;
+}
+.about-sub2 tspan{
+    font-size: 20px;
 }
 .heading-main{
     font-size: 12px;
     color: #7993CB;
-    font-family: 'Roboto','Bold';
+    font-family: 'Roboto-Bold';
 }
 .text-count{
     color: #0a2e93;
 }
 .text-p{
     color:#777777;
+    font-family: 'Roboto-Regular' !important;
+    font-size: 23px;
 }
 .full-background {
     background-position: 50%;
@@ -474,7 +505,7 @@
 }
 #Layer-5{
     cursor: auto;
-    font-family: 'Roboto';
+    font-family: 'Roboto-Bold';
 }
 .timeline-empty{
     height: 300px;
