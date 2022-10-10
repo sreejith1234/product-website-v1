@@ -1,0 +1,77 @@
+/*Contact sectiom*/
+.content-header{
+  color:#fcc500;
+  font-size: 45px;
+}
+
+.section-content{
+  text-align: left;
+  padding: 100px 95px 0px 35px;
+}
+#contact{
+  padding-top: 6%;
+  width: 100%;
+  width: 100vw;
+  height: 100vh;
+  background: #101d42; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #404a68 , #101d42); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #404a68 , #101d42); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color : #fff;    
+}
+.contact-section{
+  padding-top: 30px;
+}
+.form-line{
+  border: none;
+  padding-right: 106px;
+}
+.form-control {
+  height: 40px;
+}
+.form-group{
+  margin-top: 10px;
+}
+label{
+  font-size: 14px;
+  line-height: 1em;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+.form-control{
+  font-size: 14px;
+  color: #080808;
+}
+.contact-submit-btn {
+    padding: 11px 8px;
+    background-color: #7993cb;
+    border-radius: 50px;
+    color: #fff;
+    border: none;
+    text-align: center;
+    width: 130px;
+    margin: 25px 0px 0px 0px;
+    transition: 1s !important;
+    font-size: 14px;
+}
+.contact-submit-btn:hover{
+  color: #fff;
+}
+textarea.form-control {
+    height: 60px;
+   /* margin-top: px;*/
+}
+.section-content h3{
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: 15px;
+  line-height: 25px;
+}
+
+.submit{
+  font-size: 1.1em;
+  float: right;
+  width: 150px;
+  background-color: transparent;
+  color: #fff;
+
+}
