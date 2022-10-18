@@ -8,7 +8,7 @@
     <!-- ===============================================-->
     <!--    Document Title-->
     <!-- ===============================================-->
-    <title></title>
+    <title>Ahimsa</title>
     <!-- ===============================================-->
     <!--    Stylesheets-->
     <!-- ===============================================-->
@@ -20,12 +20,7 @@
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/timeline.css">
         <style> .slider-container{max-width: 100%; height: 100%; position: absolute; top: 0; left: 0; } .hide-container-bg::before{width: 0px !important; } .carousel-caption {position: absolute; left: 25%; top: 17%; width: 40%; } .carousel-caption-2 {position: absolute; left: 38%; top: 25%; width: 40%; } .slider-bg-b{fill: #054084; } .carousel-control-prev, .carousel-control-next{display: none !important; } .slider1-text-1{text-align: left;color: #ffffff;font-size:37px;font-family: 'Roboto-Bold';} .slider1-text-2 p{text-align: left;color: #ffffff;font-size:20px;font-family: 'Roboto-Regular'; } .carousel-indicator {position: absolute; bottom: 17%; left: 7.8%; z-index: 2; display: block; justify-content: center; padding: 0; margin: 0; list-style: none; } .carousel-indicator button {display: block; list-style: none; text-indent: -99999px; border: 2px solid #c1c1c1; background: #fff !important; width: 15px !important; height: 15px !important; border-radius: 50% !important; margin: 10px 0px 10px 0px !important; transition: .25s ease; cursor: pointer; opacity: 1 !important; border: none !important; } .carousel-indicator .active{background: #56a1d0 !important; padding: 10px 0px !important; border-radius: 50px !important; border: solid 1px #fff !important; } .nut {padding: 11px 8px; background-color: #ffffff; border-radius: 50px; color: #000; border: none; text-align: center; width: 130px; margin: 16px 0px 0px 0px; transition: 1s !important ; font-size: 14px; } .nut:hover{background-color:#ffffff; } </style>
-        <script>
-        $(document).ready(function(){
-
-            $( "#footer" ).load( "footer.html" );
-        });
-    </script>
+        
 </head>
 
 <body class="overflow-hidden-x">
@@ -622,7 +617,7 @@ printing and typesetting industry." transform="translate(121 3696)" font-size="2
     <script src="js/jquery.min.js"></script>
     <script src="js/footer_include.js"></script>
     <script>
-    $(function() {
+    $(document).ready(function () {
         $('#p1').hover(function() {
             $('#p1').css('fill', '#101d42');
             $('#pt1').css('fill', 'white');
@@ -698,12 +693,12 @@ printing and typesetting industry." transform="translate(121 3696)" font-size="2
             $('#p5').css('fill', '#c4d8f0');
             $('#pt5').css('fill', '#101d42');
         });
-    });
+    
     $(".right-arrow").click(function() {
         $(".left-arrow").show();
     });
     $('.carousel').carousel({
-        interval: 1000
+        interval: 5000
     })
 
     function slide1(direction) {
@@ -721,6 +716,7 @@ printing and typesetting industry." transform="translate(121 3696)" font-size="2
             }
         }, 50);
     }
+    });
     </script>
     <!-- <script type="text/javascript">
 
