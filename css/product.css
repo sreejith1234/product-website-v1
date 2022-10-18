@@ -189,3 +189,25 @@
     text-align: center;
     padding: 0px 5px;
 }
+.product1-contact{
+    align-items: center;
+    text-align: left !important;
+    background: #252645 !important;
+    display: flex;
+    justify-content: space-between;
+    width: 500px !important;
+    transform: translate(-15.4%, -220%) !important;
+    padding: 10px 25px 10px 25px !important;
+    border-radius: 10px !important;
+}
+.contact-btn-p1 {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    color: #212529;
+    border: none;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    transition: 1s !important;
+    font-size: 12px;
+}
