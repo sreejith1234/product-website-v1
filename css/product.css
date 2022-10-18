@@ -96,6 +96,7 @@
     font-size: 14px;
     text-align: left;
     color: #8b8b8b;
+    font-family: 'Helvetica-Regular';
 }
 
 .entry:nth-child(odd) .content {
@@ -137,6 +138,7 @@
     z-index: 1;
     width: 300px;
     text-align: left;
+    font-family: 'Roboto-Bold' !important;
 }
 .entry:nth-child(even) .time {
     transform: translate(-30%, -48%);
